@@ -32,13 +32,13 @@ export const PUB = process.env.PUBLIC_URL;
 export const announcementInfo = {
   // Appears at the top of the screen attached to navbar,
   // if an announcement exists
-  message: "We'd love to hear what you think, submit anonymous feedback!",
-  buttonText: "Give Feedback",
+  message: "Looking for the 2024 version of the course? Click the button!",
+  buttonText: "2024 Website",
   buttonLink:
-    "https://docs.google.com/forms/d/1KreaxonPm0yHkpdu0Pg9bagNk3ygip3K7fcQNIsajhQ/viewform?edit_requested=true",
+    "https://csci1710.github.io/2024/",
   // Set & Forget tools:
-  autoReleaseDate: "Feb 3, 2023 09:45:00 EST", // Automatically shows announcement on this date/time EST
-  autoDismissDate: "Feb 4, 2023 09:00:00 EST", // Automatically removes announcement on this date/time EST
+  autoReleaseDate: "Jan 3, 2024 09:45:00 EST", // Automatically shows announcement on this date/time EST
+  autoDismissDate: "Jan 4, 2025 09:00:00 EST", // Automatically removes announcement on this date/time EST
   // Announcement will be shown on page load and manually dismissable between the above two dates
 };
 
